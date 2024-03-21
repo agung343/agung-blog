@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Links from "./Links";
 import classes from "./Navbar.module.css";
 
 export default function Navbar() {
@@ -8,11 +8,11 @@ export default function Navbar() {
         <h2>Logo</h2>
       </div>
       <div>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
-        <Link href="/blog">Blog</Link>
-        <Link href="/admin">Admin</Link>
+        <Links path={'/'} title='Home' />
+        <Links path={'/about'} title='About' />
+        <Links path={'/contact'} title='Contact' />
+        <Links path={'/blog'} title='Blog' />
+        <Links path={'/admin'} title='Admin' />
       </div>
     </div>
   );
