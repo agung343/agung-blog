@@ -1,0 +1,25 @@
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;   
+    margin: 2.5rem;
+}
+
+.post {
+    width: 30%;
+}
+
+
+
+
+@media screen and (max-width: 1280px) {
+    .post {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .post {
+        width: 100%;
+    }
+}

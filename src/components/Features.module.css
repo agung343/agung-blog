@@ -1,0 +1,9 @@
+.feature {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.feature h1 {
+    color: var(--btn)
+}

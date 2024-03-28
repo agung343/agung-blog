@@ -1,0 +1,49 @@
+.contact {
+    display: flex;
+    margin: 2rem 2.5rem;
+    gap: 3rem;
+    width: 100%;
+}
+
+.imgContact {
+    flex: 1;
+    text-align: center;
+}
+
+.imgContact img {
+    object-fit: cover;
+}
+
+.formContainer {
+    flex: 1
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+}
+
+.actions {
+    margin: 1rem;
+    text-align: center;
+}
+
+.actions button {
+    padding: 1.25rem;
+    width: 100%;
+    font-size: 1rem;
+    background: var(--btn);
+    color: var(--textSoft);
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+
+.actions button:hover {
+    background: var(--btnHover);
+    color: var(--text);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}

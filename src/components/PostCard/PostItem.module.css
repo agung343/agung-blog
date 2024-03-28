@@ -1,0 +1,44 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.postHeader {
+    display: flex;
+}
+
+.postImg {
+    width: 90%;
+    height: 450px;
+    position: relative;
+}
+
+.postImg img {
+    object-fit: cover;
+}
+
+.postDate {
+    font-size: 0.75rem;
+    transform: rotate(270deg);
+    margin: auto;
+}
+
+
+.postDetails h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: inherit;
+    margin-bottom: 1.25rem;
+}
+
+.postDetails p {
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.postDetails a {
+    text-decoration: underline;
+}

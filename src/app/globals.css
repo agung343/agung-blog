@@ -4,6 +4,7 @@
   --bgSoft: #2d2b42;
   --textSoft: #e5e5e5;
   --btn: #3673fd;
+  --btnHover: #2e65e6;
 }
 
 * {
@@ -23,11 +24,9 @@ a {
 }
 
 .container {
-  background: rebeccapurple;
   width: 100%;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  min-height: 100vh;
+  margin: auto;
+  padding: 0.5rem 3rem;
   display: flex;
   flex-direction: column;
 }
